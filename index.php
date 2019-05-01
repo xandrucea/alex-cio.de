@@ -6,6 +6,16 @@
 -->
 <html>
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-80318236-3"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-80318236-3');
+		</script>
+
 		<title>Alex Cio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -399,6 +409,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<li><a href="https://twitter.com/alexcio_" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://github.com/xandrucea" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
 						<li><a href="https://instagram.com/alex.ciocea" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.youtube.com/c/AlexCio" target="_blank" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
 						<li><a href="mailto:info@alex-cio.de" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">

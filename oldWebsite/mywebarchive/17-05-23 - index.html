@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="p:domain_verify" content="0fbe2eed14c545b3837cc7d556498542"/>
+
+
+		<title>Alex Cio</title>
+
+		<!-- Bootstrap -->
+		<link href="http://alex-cio.de/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="http://alex-cio.de/vendors/basicicons/socialstyle.css" rel="sylesheet">
+		<link rel="icon" type="image/png" href="http://alex-cio.de/myim/alexcio-favicon.png"/>
+
+		<style>
+
+		body{
+			padding-top:30px;
+		}
+
+		footer{
+			width:90%;
+			margin: 0 auto;
+
+			border: 1px solid #ccc;
+			background: linear-gradient(to bottom right, #e0cda7, #645188);
+		}
+
+		footer p{
+			margin: 0;
+			padding: 20px;
+		}
+
+		.navbar .nav,
+		.navbar .nav > li {
+		  float:none;
+		  display:inline-block;
+		  *display:inline; /* ie7 fix */
+		  *zoom:1; /* hasLayout ie7 trigger */
+		  vertical-align: top;
+		}
+
+		.navbar-inner {
+		  text-align:center;
+		}
+
+		.slide-container{
+			overflow: auto;
+			white-space: nowrap;
+		}
+
+		/* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+		.videoWrapper {
+			position: relative;
+			padding-bottom: 56.25%; /* 16:9 */
+			padding-top: 25px;
+			height: 0;
+		}
+		.videoWrapper iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		#box_yt{
+			width: 100%;
+			margin: 0 auto;
+			padding-top: 28%;
+			border: 1px solid #ccc;
+			background-position: left top;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-color: #fff;
+			background-image: url("http://alex-cio.de/myim/imagebox_yt.png");
+		}
+
+		#box_yt p{
+			margin: 0; 
+			padding: 20px;
+			color: #fff;
+			background-color: rgba(0,0,0,.6);
+		}
+
+		#box_dumpster{
+			width: 100%;
+			margin: 20px auto;
+			padding-top: 30%;
+			border: 1px solid #ccc;
+			background-image: url("http://alex-cio.de/myim/containern.png");
+			background-size: contain;
+			background-position: 50% top;
+			background-repeat: no-repeat;
+		}
+
+		#box_dumpster p{
+			margin: 20px auto;
+			margin: 0;
+			padding: 20px;
+			color: #fff;
+			background-color: rgba(0,0,0,.6);
+		}
+
+		#box_local{
+			width: 100%;
+			margin: 0 auto;
+			padding-top: 25%;
+			border: 1px solid #ccc;
+			background-image: url("http://alex-cio.de/myim/jumbo_bg_local.png");
+			background-size: contain;
+			background-position: 50% top;
+			background-repeat: no-repeat;
+		}
+
+		#box_local p{
+			margin: 0;
+			padding: 20px;
+			color: #fff;
+			background-color: rgba(0,0,0,.6);
+		}
+
+		#colorbox1{			
+			background-color: #d76f8b;
+			color: #fff;
+		}
+
+		#colorbox2{			
+			background-color: #c3d4e5;
+			margin: 20px auto;
+		}
+
+		#colorbox3{			
+			background-color: #c79f8b;
+		}
+
+		#colorbox4{			
+			background-color: #f40340;
+		}
+
+		#appDescription{
+			min-height: 150px;
+		}
+
+		#oranger{
+			background-color: #fbcc86;
+		}
+
+		.hovertext a p{display:none;}
+		.hovertext a:hover p{display:block;}
+		.hovertext a:hover {display:block;}
+		
+
+		a[disabled=disabled] {
+		  color: gray;
+		  font-weight: bold;
+		  text-decoration: inherit;
+		}
+
+		#paletteOrangeLight{
+			background-color: #EEAA7B;
+			border-radius: 5px;
+			margin: 10px;
+		}
+
+		#paletteOrange{
+			background-color: #E37222;
+		}
+
+		#paletteGray{
+			background-color: #F1F1EF;
+		}
+
+		#paletteGreenLight{
+			background-color: #66B9BF;
+			border-radius: 5px;
+		}
+
+		#paletteGreen{
+			background-color: #07889B;
+		}
+
+		#mainBox{
+			
+			margin-bottom:25px;
+			margin-left: 25px;
+			margin-right:25px;
+		}
+
+		#customPadding{
+			
+			padding:20px;
+		}
+
+
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<!-- <div class="container"> -->
+			
+
+			<div class="container-fluid" id="mainBox"><!-- container 2 -->
+
+				<div id="customPadding">
+					
+					<div class="row">
+						<div class="col-sm-5 
+									col-xs-3">
+							<div class="h-card">
+								<a href="http://alex-cio.de"
+								   rel="me">
+								<img src="http://alex-cio.de/myim/alexcio.png" 
+								 	 width=100px
+								 	 height=100px 
+								 	 class="img-circle u-photo" />
+								</a>
+
+								<br><br>
+								
+								<!-- validating hCard http://hcard.geekhood.net/?url=http%3A%2F%2Falex-cio.de%2F#result -->
+								<p >
+									<strong>
+										<span class="vcard">
+											<ul style="list-style-type:none; padding:0;">
+												<li>
+													<span class="fn">
+														Alex Ciocea
+													</span>
+												</li>
+												<li>
+													<a class="u-email email" 
+													   href="mailto:ciocea@posteo.de"
+													   rel="me">
+														ciocea@posteo.de
+													</a>
+												</li>
+											</ul>
+											
+											</ul>
+											
+											<ul class="adr"
+												style="list-style-type:none; padding: 0;">
+
+												<li class="region">Nuremberg</li>
+												<li class="country-name">Germany</li>
+											</ul>
+										</span>
+									</strong>
+								</p>
+							</div>
+
+						<span class="label label-primary">Game Developer</span>
+						
+						<span class="label label-danger">Social Media Geek</span>
+						
+						<span class="label label-warning">Film Maker</span>
+								  
+						<br><br>
+						<span class="label label-info">Handcraft Enthusiast</span>
+						
+						<span class="label label-success">Gardenist</span>
+						
+						<span class="label label-default">Volunteer</span>
+						
+						<span class="label label-danger">Emotional Intelligent</span>
+								
+						
+						</div>
+
+						<div class="col-md-1 
+						            col-md-offset-0 
+						            col-sm-1 
+						            col-sm-offset-0 
+						            col-xs-1 
+						            col-xs-offset-2 
+						            text-center">
+							<a role="button"
+							   href="https://twitter.com/xandrucea"
+							   rel="me"
+							   target="_blank">
+
+								<img src="http://alex-cio.de/myim/Circle Color/Twitter.png"
+								     width=30px
+								     height=30px>
+								     <p><font size="1"><b>Twitter</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-0 
+									col-xs-1 
+									col-xs-offset-1 
+									text-center">
+								<a href="https://facebook.com/xandruciocea"
+								   rel="me"
+								   target="_blank" >
+
+								   
+									<img src="http://alex-cio.de/myim/Circle Color/Facebook.png" 
+									     width=30px 
+									     height=30px>
+									     <p><font size="1"><b>acebook</b></font></p>
+								</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-0 
+									col-xs-1 
+									col-xs-offset-1 
+									text-center">
+								<a href="https://plus.google.com/+xandrucea"
+								   rel="me"
+								   target="_blank" >
+
+									<img src="http://alex-cio.de/myim/Circle Color/Google+.png" 
+									     width=30px 
+									     height=30px>
+									     <p><font size="1"><b>Google</b></font></p>
+								</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-0 
+									col-xs-1 
+									col-xs-offset-6 
+									text-center">
+							<a href="https://instagram.com/xandrucea"
+							   rel="me"
+							   target="_blank" >
+
+								<img src="http://alex-cio.de/myim/Circle Color/Instagram.png" 
+								     widht=30px 
+								     height=30px>
+								     <p><font size="1"><b>Instagram</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-0 
+									col-xs-1
+									col-xs-offset-2 
+									text-center">
+							<a href="https://www.linkedin.com/in/alexandru-ciocea-50b36a100"
+							   rel="me"
+							   target="_blank" >
+
+							   <img src="http://alex-cio.de/myim/Circle Color/Linkedin.png"
+							   		width=30px
+							   		height=30px>
+							   		<p><font size="1"><b>LinkedIn</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-0 
+									col-xs-2 
+									col-xs-offset-1 
+									text-center">
+							<a href="https://www.reddit.com/user/xandrucea/"
+							   rel="me"
+							   target="_blank" >
+
+							   <img src="http://alex-cio.de/myim/Circle Color/Reddit.png"
+							   		width=30px
+							   		height=30px>
+							   		<p><font size="1"><b>Reddit</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1
+									col-sm-offset-0 
+									col-xs-1
+									col-xs-offset-0 
+									text-center">
+							<a href="https://github.com/xandrucea"
+							   rel="me"
+							   target="_blank" >
+
+							   <img src="http://alex-cio.de/myim/Circle Color/Github.png"
+							   		width=30px
+							   		height=30px>
+							   		<p><font size="1"><b>Github</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-2 
+									col-sm-1 
+									col-sm-offset-2 
+									col-xs-1 
+									col-xs-offset-2 
+									text-center">
+							<a href="https://de.pinterest.com/alexciocea/"
+							   rel="me"
+							   target="_blank" >
+
+							   <img src="http://alex-cio.de/myim/Circle Color/Pinterest.png"
+							   		width=30px
+							   		height=30px>
+							   		<p><font size="1"><b>Pinterest</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-1 
+									col-xs-1
+									col-xs-offset-1 
+									text-center">
+							<a href="http://www.stumbleupon.com/stumbler/alexciocea"
+							   rel="me"
+							   target="_blank" >
+
+							   <img src="http://alex-cio.de/myim/Circle Color/Stumbleupon.png"
+							   		width=30px
+							   		height=30px>
+							   		<p><font size="1"><b>SUpon</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-2 
+									col-xs-1 
+									col-xs-offset-1 
+									text-center">
+							<a href="http://trainbrainstorm.tumblr.com"
+							   rel="me"
+							   target="_blank" >
+
+							   <img src="http://alex-cio.de/myim/Circle Color/Tumblr.png"
+							   		width=30px
+							   		height=30px>
+							   		<p><font size="1"><b>Tumblr</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-1 
+									col-xs-1 
+									col-xs-offset-3
+									text-center">
+							<a href="https://www.yelp.de/user_details?userid=sgBjVloYqLtvgaFkrXeBPg"
+							   rel="me"
+							   target="_blank" >
+
+							   <img src="http://alex-cio.de/myim/Circle Color/Yelp.png"
+							   		width=30px
+							   		height=30px>
+							   		<p><font size="1"><b>Yelp</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-2 
+									col-xs-1 
+									col-xs-offset-4 
+									text-center">
+							<a href="http://stackoverflow.com/users/1141395/alex-cio"
+							   target="_blank" >
+
+							   <img src="http://alex-cio.de/myim/Stackoverflow2.png"
+							   		width=30px
+							   		height=30px>
+							   		<p><font size="1"><b>SO</b></font></p>
+							</a>
+						</div>
+
+
+						<div class="col-md-1 
+									col-md-offset-4 
+									col-sm-1 
+									col-sm-offset-1 
+									col-xs-1
+									col-xs-offset-5
+									text-center">
+							<a href="http://patreon.com/xandrucea"
+							   rel="me"
+							   target="_blank">
+							   <img src="http://alex-cio.de/myim/Circle Color/Patreon.png"
+							   		width=30px
+							   		height=30px />
+							   		<p><font size="1"><b>Patreon</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-md-1 
+									col-md-offset-2 
+									col-sm-1 
+									col-sm-offset-2 
+									col-xs-1 
+									col-xs-offset-10 
+									text-center">
+							<a href="https://soundcloud.com/xandrucea"
+							   rel="me"
+							   target="_blank">
+							   <img src="http://alex-cio.de/myim/Circle Color/Soundcloud.png"
+							   		width=30px
+							   		height=30px />
+							   		<p><font size="1"><b>SC</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-0 
+									col-xs-1 
+									col-xs-offset-5 
+									text-center">
+							<a href="https://www.youtube.com/channel/UCvrSVQRl6OE6cw0qu20UuiA"
+							   rel="me"
+							   target="_blank">
+							   <img src="http://alex-cio.de/myim/Circle Color/YouTube.png"
+							   		width=30px
+							   		height=30px />
+							   		<p><font size="1"><b>YouTube</b></font></p>
+							</a>
+						</div>
+							
+						<div class="col-md-1 
+									col-md-offset-5 
+									col-sm-1 
+									col-sm-offset-0 
+									col-xs-1 
+									col-xs-offset-1 
+									text-center">
+							<a href="https://nebenan.de/profile/506858"
+							   rel="me"
+							   target="_blank">
+							   <img src="http://alex-cio.de/myim/Circle Color/Nebenan.png"
+							   		width=30px
+							   		height=30px />
+							   		<p><font size="1"><b>Nebenan</b></font></p>
+							</a>
+						</div>
+
+						<div class="col-md-1 
+									col-md-offset-0 
+									col-sm-1 
+									col-sm-offset-0 
+									col-xs-1 
+									col-xs-offset-1
+									text-center">
+							<a href="https://www.amazon.de/gp/profile/amzn1.account.AGE3NY6KWMZACALFVZYMTUEK34TQ?ie=UTF8&preview=true"
+							   rel="me"
+							   target="_blank">
+							   <img src="http://alex-cio.de/myim/Circle Color/Amazon.png"
+							   		width=30px
+							   		height=30px />
+							   		<p><font size="1"><b>Amazon</b></font></p>
+							</a>
+						</div>
+
+					</div><!-- end row -->
+
+				</div>
+				<br>
+
+				<!-- Container for menu and content -->
+				<div class="container">
+					<div class="row">
+						<!-- <div class="col-xs-8 col-xs-offset-2"> -->
+
+						<div>
+							<ul role="tablist" class="nav nav-tabs" id="myTabs">
+
+								<li role="presentation" class="active">
+									<a href="#home" 
+									   aria-controls="home" 
+									   role="tab" 
+									   data-toggle="tab" >
+										
+									   <span class="glyphicon glyphicon-home" 
+										     href="#home" 
+											 aria-hidden="true"></span>
+										
+										<small>My News</small>
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#apps" 
+									   aria-controls="apps" 
+									   role="tab" 
+									   data-toggle="tab" >
+									   
+									   <span class="glyphicon glyphicon-phone" 
+									         aria-hidden="true"></span>
+										
+										<small>My Work</small>
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#aboutMe" 
+									   aria-controls="aboutMe" 
+									   role="tab" 
+									   data-toggle="tab" >
+
+										<span class="glyphicon glyphicon-user" 
+										      aria-hidden="true"></span>
+										
+										<small>About Me</small>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						</div>
+					</div>
+			
+					
+
+
+					<!-- C O N T E N T -->
+					<div class="tab-content">
+						<!-- my profiles container home -->
+						<div role="tabpanel" 
+						     class="tab-pane fade in active" 
+						     id="home">
+
+						<br>
+
+						<div class="row">
+							<div class="col-xs-11
+										col-sm-8
+										col-md-6">
+
+								<div>										
+									<h2>The IndieWebCamp 2017</h2>
+
+									<p>
+										This was the first time I visited the IndieWebCamp in Nuremberg. I heard a lot of things about the Web Week in the last years, but I never had time to visit one of the interesting events taking place in my city!
+									</p>
+									<p>
+										This is me working on my own website on the second day of the IndieWebCamp and trying to setup different types of microformats as well as preparing my page to include a posting section where I can implement webmentions in the future too!
+									</p>
+
+									<div class="videoWrapper">
+										<iframe width="560" 
+												height="315" 
+												src="https://www.youtube.com/embed/ed8mjPwq40k" 
+												frameborder="0" 
+												allowfullscreen></iframe>
+									</div>
+								</div><!-- end of post div -->
+							
+
+						<hr>
+						
+								<h2>Earning my first $0.06 on YouTube</h2>
+								<hr>
+
+								<img src="http://alex-cio.de/myim/blogposts/17-03-21 - youtube_header.png" 
+									 width="100%"/>
+										
+								<p>
+									I am an app developer, social media geek and since 6 months I would also call myself a YouTuber. Not a big or famous one, but I already collected some experiences on the process of creating a movie and publishing it, while trying to share it with my friends and people I meet and I would like to share these things with you because I feel there are just a few people writing about it.
+								</p>
+								<br>
+								<p>
+									By the moment I write these lines, I earned exactly $0.06 in total. Here is an overview of the revenue analytics of the last 6 months
+								</p>
+									<img src="http://alex-cio.de/myim/blogposts/17-03-21 - youtube_stats.png"
+										 width="100%">
+
+								<p>
+									Even this is just a very small amount, I already put a lot of work and effort into it. I already spent many hours recording footage that had to be edited for hours or days. To be sure, I spent several months on this subject full time to understand the basics of film making and the publishing on YouTube.
+								</p>
+								<h2>How I started</h2>
+								<p>
+									First of all you should know that I never learned anything regarding film making or photography in common. I studied business informatics, then I worked for more than 2 years on mobile apps and also computer games as a software developer and after that I had the chance to learn a lot about social media for 6 months. But I never visited a school or was taught anything about film making.
+								</p>
+								<p>
+									While doing social media in my prior work at the Game Studio of <a href="http://pixel-maniacs.com" target="_blank">Pixel Maniacs</a> and promoting our games, I saw a lot of people out there, creating videos of nearly everything. After discovering many different channels and seeing many good but also many bad examples, I started to develop the idea of creating my own channel. I hate criticizing people without knowing anything about it, that’s why I started to work on the first ideas for a short movie.
+								</p>
+								
+								<h2>My First YouTube Movie</h2>
+								<p>
+									After deciding to finally start with a channel after months, I was still thinking about an idea, something that others maybe wouldn’t do, at least nothing that I saw before, this was my rule!
+								</p>
+								<p>
+									After some time I came up with the idea of creating movies that show a process of something that I create. I wanted to see a fast progress because it is a great feedback for me at the same time. This was why I started to crochet a scarf in the first movie. I called it the #CrochetingChallenge and I recorded everything from start to the end, about 3 hours standing in the park and crocheting and the result can be seen here
+								</p>
+
+								<div class="videoWrapper">
+									<iframe width="560" 
+											height="315" 
+											src="https://www.youtube.com/embed/iF2BtWptY64" 
+											frameborder="0" 
+											allowfullscreen></iframe>
+								</div>
+
+								<br>
+								<p>
+									These 3 minutes and 52 seconds took me about 8 hours of editing on my Mac Mini. I recorded everything with a GoPro 3+ Black Edition that I already had. The biggest problem were the big files that had a size of 4 GB and I had about 8 of them. Because of the footage size and maybe also because of iMovie, I couldn’t preview the videos that I cut. I had to play with the keyboard arrows to jump to a specific spot in the song and then I cut it. 
+									After some videos I purchased a Mac Book Pro because it was too time consuming to export a whole movie just to see your last cuts.
+								</p>
+								<h5>What I learned on this movie:</h5>
+								<p>
+									I started to play with time, and jump through the footage to show the result of my work faster. I also started to make sure that music fits the rhythm of my editing.
+								</p>
+
+								<h3>What I did next</h3>
+								<p>
+									I started to watch more Vlogs from famous YouTubers. Watching interviews of film makers and also pay more attention to the movies I saw. Because of the lack of expensive camera gear I started to focus on playing with the camera, switching perspectives, and of course storytelling.
+								</p>
+								<p>
+									The biggest inspiration came from <a href="casey.nyc" target="_blank">Casey Neistat</a> and his Vlogs that he was creating at this time. I discovered him in June 2016 while I was sitting in Amsterdam at one of the rivers and watching him surfing behind a boat along this place in a movie he published 2 days before. He just visited a conference at this time. 
+									I discovered many different ideas through his YouTube movies that even didn’t require a lot of money. After some time I had more and more ideas and from time to time I had to discover that Casey already used them in his movies. First I was kind of sad to see that the ideas already existed in his movies, but then I started to realize that it was even better. Every time I saw something on his channel that I thought about before, I knew that it was a good idea.
+								</p>
+								<p>
+									One video that I would recommend to everybody who never got into film making or already started with it, is the Guide to Filmmaking
+								</p>
+
+								<div class="videoWrapper">
+									<iframe width="560" 
+											height="315" 
+											src="https://www.youtube.com/embed/nLSUrTxquyE" 
+											frameborder="0" 
+											allowfullscreen></iframe>
+								</div>
+
+								<h3>How much time I spent in the last 6 Months</h3>
+								<p>
+									I barely can tell you a precise amount of time that I spent on this whole subject. I created a lot of footage, spent a lot of time on repeating what I want to say and there were long nights with sometimes nearly no sleep while cutting my movies. Often I deleted my cuts after hours only to start completely new. Sometimes I stopped cutting after hours because I realized I don’t like the idea anymore. And there is still footage that I haven’t edited even I shot it months ago. The process of shooting and cutting of just one single movie can vary between hours or even days, months or years on long term projects. Casey for example was practicing snowboarding since 2001 because he always wanted to create a movie where he is snowboarding through New York, pulled by a car. He finally made this movie in 2017. Some things take a lot of time!
+								</p>
+
+								<h5>Shooting time</h5>
+
+								<p>
+									By this time, I uploaded 19 short movies that take about 3–10 minutes each. 
+									The time of the final movie is just a short amount of the footage that I shot to create it. At the beginning I had a lot of footage because I always placed my camera in one spot and did my work in front of it. 30–60 GB. I didn’t want to lose anything interesting. This might be good in some situations, but at some point it can get frustrating to go through hours of footage to take a minute or even just some seconds out of it for the final movie. Further more you will get problems with saving all this footage…after short time!
+									<br>
+									Every time I have to cut away long scenes that don’t show anything interesting, I am thinking about Werner Herzog’s words:
+								</p>
+								<blockquote>
+									<p>“We are not garbage collectors. We are filmmakers. We are thieves. We get away with loot from the most beautiful, or the most scary, or the most spectacular places that you can ever find.”
+									</p>
+								</blockquote>
+
+								<h5>The Editing</h5>
+
+								<p>
+									The process of cutting movies just speeded up after some months. This means I might take me only 2–3 hours editing instead of 8–10 hours. Since I have my Mac Book Pro I also can preview my cuts, this is a big benefit! But it was also very important to be challenged by missing recourses. If you want to accomplish something, and the hardware doesn’t allow it, you start to build workarounds to accomplish your goal. These workarounds will lead you to understand your work better. 
+									But don’t think you can reduce the time for cutting a lot. You get faster on what you know but at the same time you learn even new things that you didn’t know before and this will slow down the process again, f.e. dealing with footage from more than one camera or color grading. Here is just one example shot with multiple cameras, that I created some weeks ago
+
+								</p>
+
+								<div class="videoWrapper">
+									<iframe width="560" 
+											height="315" 
+											src="https://www.youtube.com/embed/NHOXoF38iP0" 
+											frameborder="0" 
+											allowfullscreen></iframe>
+								</div>
+
+								<h3>Where I go from here</h3>
+								<p>
+									I will go continue creating movies out of my idea. I am also sure that I will have to learn a lot of new things in the upcoming years. And after having all the fun with shooting and editing, I would enjoy to help others with my knowledge as good as I can because I know it is a long way if you are totally new. Just let me know if you need help and send me a message on Twitter or any other platform! I am looking forward to it and will write some more about my experience in the future!
+								</p>
+								<p>
+								Big thanks to <a href="https://twitter.com/EinEdelmann" target="_blank">Sebastian Zelada Ocampo</a> for proofreading this article!
+								</p>
+							</div><!-- end of post col -->
+
+							<div class="col-md-4 col-md-offset-2
+										col-sm-4">
+
+								<a class="twitter-timeline" href="https://twitter.com/xandruCea">
+									Tweets by xandruCea
+								</a> 
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</div><!-- end of side bar col -->
+						</div><!-- end of post row -->
+
+
+							
+						</div><!-- container home -->
+						<br>
+						<!-- RIGHT -->
+						<div role="tabpanel" 
+						     class="tab-pane fade" 
+						     id="apps">
+
+						     <!-- row for channels -->
+							<div class="row">
+
+								<div class="col-xs-12
+											col-sm-6
+											col-md-4">
+									<div id="box_yt">
+										<p>
+											ME ON YouTube
+								    		<a  href="https://www.youtube.com/channel/UCvrSVQRl6OE6cw0qu20UuiA/containern.alexandru-ciocea.de"
+								    			type="button" 
+								    		 	class="btn btn-info" >GoTo my Channel</a>
+										</p>
+									</div>
+								</div>
+						
+								<div class="col-xs-12
+											col-sm-6
+											col-md-4">
+									<div id="box_dumpster">
+										<p>
+											I LOVE WASTE
+								    		<a  href="http://containern.org"
+								    			type="button" 
+								    		 	class="btn btn-info" >Check my latest tour
+								    		</a>
+								    	</p>
+									</div>
+								</div>
+							
+
+							
+								<div class="col-xs-12
+											col-sm-6
+											col-md-4">
+									<div id="box_local">
+										<p>
+											CITY EXPLORING
+								    		<a  href="https://www.google.com/maps/contrib/104493504020872294219"
+								    			type="button" 
+								    		 	class="btn btn-info" >Check my latest tour
+								    		</a>
+								    	</p>
+									</div>
+								</div>
+								
+							</div><!-- end row channels -->
+
+						    
+						    
+							<h3>PC Games I worked on</h3>
+							<hr>
+						     <div class="row text-center">
+
+								     <div class="col-xs-12">
+								     	<div class="text-center">
+								     		<a href="http://pixel-maniacs.com/chromagun"
+						     				   target="_blank">
+						     				   <img src="http://alex-cio.de/myim/appicons/icon_chromagun.png"
+									     		 	class="img-rounded"
+									     		 	width=110>
+						     				</a>
+								     		
+
+								     		
+								     	</div><!-- end thumbnail div -->
+								     </div><!-- end column backgammon -->
+							</div><!-- end of row for games -->
+
+							<h3>Apps created by me</h3>
+							<hr>
+							<div class="slide-container">
+								<a href="https://itunes.apple.com/de/app/skateboard-tricks-step-by/id711411140?l=en&mt=8"
+			     				   target="_blank">
+			     				   <img src="http://alex-cio.de/myim/appicons/2_connectfour.png"
+					     			 	class="img-rounded"
+					     			 	width=110>
+			     				</a>
+			     				<a href="https://itunes.apple.com/de/app/hangman-multiplayer/id938105986?mt=8"
+			     				   target="_blank">
+			     				   <img src="http://alex-cio.de/myim/appicons/8_hangman.png"
+						     			class="img-rounded"
+						     			width=110>
+			     				</a>
+			     				<a href="https://itunes.apple.com/de/app/backgammon-multiplayer/id1001570427?mt=8"
+			     				   target="_blank">
+			     				   <img src="http://alex-cio.de/myim/appicons/9_backgammon.png"
+						     		 	class="img-rounded"
+						     		 	width=110>
+			     				</a>
+			     				<a href="http://lochmann-apps.de/2186-kreuzwortraetsel-285-en.htm"
+			     				   target="_blank">
+			     				   <img src="http://alex-cio.de/myim/appicons/7_crossword.png"
+						     			class="img-rounded"
+						     			width=110>
+			     				</a>
+			     				<a href="https://itunes.apple.com/de/app/skateboard-tricks-step-by/id711411140?l=en&mt=8"
+			     				   target="_blank">
+			     				   <img src="http://alex-cio.de/myim/appicons/6_skateboardtricks.png"
+						     			class="img-rounded"
+						     			width=110>
+			     				</a>
+			     				<a href="https://itunes.apple.com/us/app/a-or-b-ultimate-quiz/id771630537?l=de&ls=1&mt=8"
+			     				   target="_blank">
+			     				   <img src="http://alex-cio.de/myim/appicons/5_aorb.png"
+						     			class="img-rounded"
+						     			width=110>
+			     				</a>
+			     				<a href="https://itunes.apple.com/us/app/chat-bot-endlich-nicht-mehr/id709306574?l=de&ls=1&mt=8"
+			     				   target="_blank">
+			     				   <img src="http://alex-cio.de/myim/appicons/4_chatbot.png"
+						     			class="img-rounded"
+						     			width=110>
+			     				</a>
+			     				<a href="http://lochmann-apps.de/nsa-firewall---nie-wieder-ausspioniert-werden-273-en.htm"
+			     				   target="_blank">
+			     				   <img src="http://alex-cio.de/myim/appicons/3_nsafirewall.png"
+						     			class="img-rounded"
+						     			width=110>
+			     				</a>
+			     				<a href="https://www.youtube.com/watch?v=UkZZn81y7c8"
+			     				   target="_blank">
+			     				   <img src="http://alex-cio.de/myim/appicons/1_tvwerbefrei.jpg"
+						     			class="img-rounded"
+						     			width=110>
+			     				</a>
+
+							</div>
+
+						</div><!-- container apps -->
+
+
+
+						<div role="tabpanel" 
+						     class="tab-pane fade" 
+						     id="aboutMe" >
+							
+							<!-- container for aboutme page -->
+							<div class="container">
+								
+								<!-- row facts block -->
+								<div class="row">
+
+										<!-- Facts block -->
+									<div class="col-xs-12">
+						 				<br>
+						 				<h3>Some Facts</h3>
+		 								<p>
+		 								<small>At the moment I am working on iOS Apps as well as Social Media and YouTube.</small><br>
+		 								<br>
+		 									<small>
+		 									The last years (2013 - 2016) I have been working in different areas in a computer game studio. Starting as an iOS Developer I created different games for mobile phones. After two years and a lot of apps, I started to learn <a href="http://unity3d.com">Unity</a> together with my team. It was interesting because I've never worked with a game engine before. Together with my former dev team from <a href="http://pixel-maniacs.com">Pixel Maniacs</a>, we worked on our first 3D games, <a href="http://pixel-maniacs.com/chromagun">ChromaGun"</a> and <a href="http://pixel-maniacs.com/cantdrivethis">Can't Drive This"</a>.
+		 									</small>
+		 								</p>
+
+		 								<p>
+		 									<small>
+		 									After the release of ChromaGun I have been focusing more on different social media platforms and promoting the game. I started to use platforms like Twitter, Facebook and many others. I started to learn about new people, new games and a lot of other different experiences. That's why I will keep focusing on these platforms and normally you will find me under the pseudonym <b><i>xandrucea</i></b>.
+		 									</small>
+		 								</p>
+
+		 								<p>
+		 									<small>
+		 										I plan to create more apps for iOS. Next to this I am going to start different projects that I will document from time to time on youtube or other channels. These will be summarized inside the project section that you can see on the left.<br>
+		 										The projects might be connected to my hobbies or anything new I have discovered that I am superpsyched about.<br>
+		 										My apps as well as the projects will mostly consist of something creative, even they might not provide any meaning [ even I am convinced things do not need a meaning if they are creative ].
+		 									</small>
+		 								</p>
+		 							</div><!-- end facts block -->
+						 		</div><!-- end of row facts block -->
+						 		<hr>
+						 		<!-- row friends -->
+						 		<div class="row">
+						 			<div class="col-xs-12">
+						 				<h3>My Friends</h3>
+
+						 				<div class="media">
+										  <div class="media-left media-middle">
+										    <a href="https://jkphl.is"
+										       rel="friend met">
+										      <img class="media-object" 
+										      	   src="http://alex-cio.de/myim/Friends/17-05-21 - joschi_kuphal.png" 
+										      	   alt="Joschi Kuphal from Nuremberg">
+										    </a>
+										  </div>
+										  <div class="media-body">
+										  	<a href="https://jkphl.is"
+										  	   rel="friend met">
+										    	<h6 class="media-heading">Joschi Kuphal</h6>
+										    </a>
+										  </div>
+										</div><!-- end of media div -->
+
+										<div class="media">
+										  <div class="media-left media-middle">
+										    <a href="http://hannasikasa.com"
+										       rel="friend met">
+										      <img class="media-object" 
+										      	   src="http://alex-cio.de/myim/Friends/17-05-21 - hanna_sikasa.png" 
+										      	   alt="Hanna Sikasa, Sängerin aus Nürnberg">
+										    </a>
+										  </div>
+										  <div class="media-body">
+										  	<a href="http://hannasikasa.com"
+										  	   rel="friend met">
+										    	<h6 class="media-heading">Hanna Sikasa</h6>
+										    </a>
+										  </div>
+										</div><!-- end of media div -->
+						 			</div>
+						 		</div><!-- end of row friends -->
+						 		<hr>
+						 		<!-- row books, movies and music -->
+						 		<div class="row">
+
+						 			<div class="col-xs-12">
+						 				<h2>Books</h2>
+						 				
+						 				<div class="media">
+							 				<div class="media-left media-middle">
+							 					<a href="https://www.medienwiki.org/index.php?action=ajax&title=-&rs=SecureFileStore::getFile&f=/1/14/Innovation_in_den_Medien_2.pdf">
+							 						<img src="http://alex-cio.de/myim/books/cover_markus_kaiser_innovation_in_den_medien.png"
+							 							 alt="Das Buch von Markus Kaiser über Soziale Netzwerke und ihre Einsatzgebiete" 
+							 							 width="64">
+							 					</a>
+							 				</div>
+						 				</div><!-- end media -->
+						 				<div class="media-body">
+						 					<div class="hreview">
+								 				
+
+							 					<a  class="item url"
+							 						href="https://www.medienwiki.org/index.php?action=ajax&title=-&rs=SecureFileStore::getFile&f=/1/14/Innovation_in_den_Medien_2.pdf">
+
+							 					
+								 					<h5 class="media-heading fn">
+								 						Innovation In den Medien
+								 					</h5>
+								 				</a><!-- end of item url -->
+							 				
+							 					<abbr class="rating" title="5">
+							 						*****
+							 					</abbr>
+								 				
+								 				<h6 class="summary">
+								 					Social Media from different perspectives
+								 				</h6>
+								 				
+								 				<span class="reviewer">
+								 					Reviewer:
+								 					<span class="fn">
+								 						Alex Ciocea
+								 					</span>
+								 				</span>
+								 				
+								 				<span class="dtreviewed"
+								 					  title="2017-05-21">
+								 					  May 21, 2017
+								 				</span>	  
+								 				
+								 				<p class="description">
+								 					This is a book for everybody who would like to understand social media better. Markus Kaiser explains different social networks in detail and shows how you can use them and how you can combine them combined to have a positiv effect on the message you want to bring out.
+								 				</p>
+								 				
+								 				<p>
+								 				asdfsdfpojiwioweiofn wefoiwnoief
+								 				</p>
+
+								 			</div><!-- end hreview -->
+						 				</div><!-- end media-body -->
+						 			</div>
+						 			</div>
+						 			<hr>
+						 			<div class="row">
+							 			<div class="col-xs-12">
+							 				<h2>Movies</h2>
+							 				comming soon!
+							 			</div>
+							 		</div>
+						 			<hr>
+						 			<div class="row">
+							 			<div class="col-xs-12">
+							 				<h2>Music</h2>
+							 				comming soon!
+							 			</div>
+							 		</div>
+						 		</div>
+
+						 	</div><!-- end of container aboutme page -->
+						 	
+						</div><!-- tabpanel aboutMe -->
+
+					</div><!-- tab-content-->
+
+				</div><!-- container for content -->
+
+				<footer>
+					<div class="row">
+						<div class="col-xs-12 text-center">
+						<p>
+							<a href="http://alex-cio.de/contact.html"
+							   target="_blank">
+								<font color="white">Impressum / Contact</font>
+							</a>
+							<font color="white">&nbsp---&nbsp</font>
+							<a href="http://alex-cio.de/mywebarchive.html"
+							   target="_blank">
+								<font color="white">Old Website</font>
+							</a>
+							<font color="white">&nbsp---&nbsp</font>
+							<a href="https://github.com/xandrucea/alex-cio.de/commits/master"
+							   target="_blank">
+								<font color="white">Last Changes (Commits)</font>
+							</a>
+						</p>
+						</div>
+					</div><!-- end row -->
+				</footer>
+			</div><!--container main -->
+
+		<!-- </div>  -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    	
+
+
+
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://alex-cio.de/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-80318236-3', 'auto');
+	  ga('send', 'pageview');
+
+	</script>	
+
+	<script>
+
+	// my own scripts
+$('#myModal').on('show.bs.modal', function (e) {
+  if (!data) return e.preventDefault() // stops modal from being shown
+})
+
+	</script>
+	</body>
+
+</html>

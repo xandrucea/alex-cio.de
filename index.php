@@ -19,12 +19,13 @@
 					<a href="https://alex-cio.de" class="image avatar"><img src="images/custom/alex_600.png" alt="" /></a>
 					<h1><strong>Ich bin Alex Cio</strong>, <br /> 
 						Onlineaktivist und Filmemacher<br />
-					
+					<hr/>
 					<!-- <hr> -->
+
 					<a href="?entry=kollaborationen" role="button" class="btn btn-primary">
 						Kollaborationen
 					</a>
-
+|
 					<a href="?entry=buecherregal" role="button" class="btn btn-primary">
 						Bücherregal
 					</a>

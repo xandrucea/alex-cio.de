@@ -31,15 +31,21 @@
 						Onlineaktivist und Filmemacher<br />
 					<hr/>
 					<!-- <hr> -->
-
-					<a href="?entry=kollaborationen" role="button" class="btn btn-primary">
-						Kollaborationen
-					</a>
-|
-					<a href="?entry=buecherregal" role="button" class="btn btn-primary">
-						Bücherregal
-					</a>
-					
+					<!-- <div>
+						<a href="?entry=kollaborationen" role="button" class="btn btn-primary">
+							Kollaborationen
+						</a>
+					</div> -->
+					<div>
+						<a href="?entry=buecherregal" role="button" class="btn btn-primary">
+							Bücherregal
+						</a>
+					</div>
+					<div>
+						<a href="?entry=contact" role="button" class="btn btn-primary">
+							Impressum
+						</a>
+					</div>
 				</div>
 			</header>
 
@@ -407,9 +413,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<div class="inner">
 					<ul class="icons">
 						<li><a href="https://twitter.com/alexcio_" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/xandrucea" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
 						<li><a href="https://instagram.com/alex.ciocea" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="https://www.youtube.com/c/AlexCio" target="_blank" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+						<li><a href="https://www.reddit.com/user/xandrucea" target="_blank" class="icon fa-reddit"><span class="label">Reddit</span></a></li>
+						<li><a href="https://de.quora.com/profile/Alex-Cio" target="_blank" class="icon fa-quora"><span class="label">Quora</span></a></li>
+						<li><a href="https://github.com/xandrucea" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/alex-cio/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.xing.com/profile/Alexandru_Ciocea" target="_blank" class="icon fa-xing"><span class="label">Xing</span></a></li>
 						<li><a href="mailto:info@alex-cio.de" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">

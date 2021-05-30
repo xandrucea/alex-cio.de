@@ -6,20 +6,16 @@
 -->
 <html>
 	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-80318236-3"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-80318236-3');
-		</script>
+		
+		<?= include('lib/google-api.php'); ?>
+		<?= include('lib/facebook-pixel.php'); ?>
 
 		<title>Alex Cio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		
 	</head>
 	<body class="is-preload">
 
@@ -31,14 +27,24 @@
 						Onlineaktivist und Filmemacher<br />
 					<hr/>
 					<!-- <hr> -->
-					<!-- <div>
-						<a href="?entry=kollaborationen" role="button" class="btn btn-primary">
-							Kollaborationen
+					<div>
+						<a href="?entry=blog" role="button" class="btn btn-primary">
+							mein blog
 						</a>
-					</div> -->
+					</div>
 					<div>
 						<a href="?entry=buecherregal" role="button" class="btn btn-primary">
 							Bücherregal
+						</a>
+					</div>
+					<div>
+						<a href="?entry=references" role="button" class="btn btn-primary">
+							Ich online
+						</a>
+					</div>
+					<div>
+						<a href="processing/gaming.html" role="button" class="btn btn-primary">
+							Games
 						</a>
 					</div>
 					<div>
@@ -46,13 +52,16 @@
 							Impressum
 						</a>
 					</div>
+						
+					
+
 				</div>
 			</header>
 
 
 
 			<?php 
-				//echo file_exists('item-list-display/public/item-list-display.php') *1;
+				
 				ini_set("display_errors", "on");
 				include 'item-list-display/public/item-list-display.php';
 
@@ -421,10 +430,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<li><a href="https://www.linkedin.com/in/alex-cio/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="https://www.xing.com/profile/Alexandru_Ciocea" target="_blank" class="icon fa-xing"><span class="label">Xing</span></a></li>
 						<li><a href="mailto:info@alex-cio.de" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
+						
+					</ul> <br/>
+					<a rel="me" href="https://dasauge.de/-alex-cio/" title="Alexandru Ciocea bei dasauge" target="_blank"><img src="https://cdn.dasauge.net/prolinks/dasauge_de_btn_profil.png" alt="Alexandru Ciocea" width="85" height="23" style="border:0" /></a>
+					<br/> <br/>
+					
+
+					<script type='text/javascript' src='https://ko-fi.com/widgets/CounterWidget.js'></script><script type='text/javascript'>counterwidget.init('I2I618BA1');counterwidget.draw();</script>
+
 					<ul class="copyright">
 						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
+
+					<!-- [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I618BA1) -->
 				</div>
 			</footer>
 

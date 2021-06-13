@@ -43,11 +43,6 @@
 						</a>
 					</div>
 					<div>
-						<a href="processing/gaming.html" role="button" class="btn btn-primary">
-							Games
-						</a>
-					</div>
-					<div>
 						<a href="?entry=contact" role="button" class="btn btn-primary">
 							Impressum
 						</a>

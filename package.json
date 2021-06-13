@@ -1,0 +1,26 @@
+{
+  "name": "alex-cio.de",
+  "version": "1.0.0",
+  "description": "Hello my friends,  thanks you for your contributions.  If you need more help, send me a message mailto:info@alex-cio.de",
+  "main": " ",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "prettier": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "format": "prettier --write --plugin-search-directory=. ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xandrucea/alex-cio.de.git"
+  },
+  "author": "Alex Cio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xandrucea/alex-cio.de/issues"
+  },
+  "homepage": "https://github.com/xandrucea/alex-cio.de#readme"
+}

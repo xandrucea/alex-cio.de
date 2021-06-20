@@ -1,0 +1,22 @@
+{
+  "name": "xandrucea/alex-cio.de",
+  "description": "Alex Cio's Personal Website",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Cio",
+      "email": "info@alex-cio.de"
+    }
+  ],
+  "repositories": [
+    {
+      "name": "xandrucea/item-list-display",
+      "type": "vcs",
+      "url": "https://github.com/xandrucea/item-list-display"
+    }
+  ],
+  "require": {
+    "xandrucea/item-list-display": "v1.0-alpha"
+  }
+}

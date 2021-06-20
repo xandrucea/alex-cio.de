@@ -1,19 +1,24 @@
 {
   "name": "alex-cio.de",
-  "version": "0.1.0",
+  "author": "Alex Cio <info@alex-cio.de>",
+  "version": "1.0.0",
   "description": "Alex Cio's Personal Website",
   "homepage": "alex-cio.de",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "php -S localhost:8080"
+    "start": "php -S localhost:8080",
+    "format": "prettier --write --plugin-search-directory=. ."
   },
+  "dependencies": {
+    "prettier": "^2.3.1"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xandrucea/alex-cio.de.git"
   },
-  "author": "Alex Cio <info@alex-cio.de>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xandrucea/alex-cio.de/issues"

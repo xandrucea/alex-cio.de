@@ -1,3 +1,21 @@
+<?php
+require __DIR__ . '/vendor/autoload.php'; 
+ini_set("display_errors", "on");
+
+$content = new Xandrucea\ItemListDisplay([
+	'contentDirectory'  => 'content/',
+	'templateDirectory' => 'templates/',
+	'itemKey'           => 'entry',
+	'sortOrder'         => 'descending'
+]);
+
+$content->configureRouter([
+	'list'    => 'item.html',
+	'display' => 'display.html',
+	'error'   => 'error-page.html',
+]);
+
+?>
 <!DOCTYPE HTML>
 <!--
 	Strata by HTML5 UP
@@ -57,18 +75,7 @@
 
 				</div>
 			</header>
-
-
-
-			<?php 
-				
-				ini_set("display_errors", "on");
-				include 'item-list-display/public/item-list-display.php';
-
-			?> 
-
-
-
+			<?= $content->render() ?> 
 				<!-- Three -->
 <!-- 					<section id="three">
 						<h2>Get In Touch</h2>

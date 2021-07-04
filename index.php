@@ -39,6 +39,7 @@ $content->configureRouter([
  include "assets/partials/header.php";
  $content->render();
  include "assets/partials/footer.php";
+ include "assets/partials/bookbanner.php";
  ?>
 
 		<!-- Scripts -->

@@ -1,0 +1,48 @@
+#book-banner {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  margin-top: 60px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  animation: slideup 2s forwards;
+  animation-duration: 6s;
+}
+
+#book-banner img {
+  width: 100%;
+  height: 100%;
+  max-width: 950px;
+}
+
+@media only screen and (max-width: 950px) {
+  #book-banner::before {
+    position: absolute;
+    height: 175px;
+    content: "";
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  #book-banner {
+    z-index: -1;
+    text-align: right;
+  }
+
+  #book-banner img {
+    width: 60vw;
+  }
+}
+
+@keyframes slideup {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}

@@ -3,16 +3,16 @@ require __DIR__ . "/vendor/autoload.php";
 ini_set("display_errors", "on");
 
 $content = new Xandrucea\ItemListDisplay([
-    "contentDirectory" => "content/",
-    "templateDirectory" => "templates/",
-    "itemKey" => "entry",
-    "sortOrder" => "descending",
+  "contentDirectory" => "content/",
+  "templateDirectory" => "templates/",
+  "itemKey" => "entry",
+  "sortOrder" => "descending",
 ]);
 
 $content->configureRouter([
-    "list" => "item.html",
-    "display" => "display.html",
-    "error" => "error-page.html",
+  "list" => "item.html",
+  "display" => "display.html",
+  "error" => "error-page.html",
 ]);
 ?>
 
@@ -23,32 +23,33 @@ $content->configureRouter([
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<?= include "lib/google-api.php" ?>
-		<?= include "lib/facebook-pixel.php" ?>
+<head>
+<?= include "lib/google-api.php" ?>
+<!--  include "lib/facebook-pixel.php"  -->
 
-		<title>Alex Cio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		
-	</head>
-	<body class="is-preload">
+<title>Alex Cio</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
 
-	<?php
- include "assets/partials/header.php";
- $content->render();
- include "assets/partials/footer.php";
- include "assets/partials/bookbanner.php";
- ?>
+</head>
+<body class="is-preload">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<header id="header"><?php include "assets/partials/header.php"; ?></header>
 
-	</body>
+<div id="main"><?php $content->render(); ?></div>
+
+<footer id="footer"><?php include "assets/partials/footer.php"; ?></footer>
+
+<?php include "assets/partials/bookbanner.php"; ?>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>
